@@ -1,0 +1,50 @@
+images/baboon.pgm images/baboon_TwoT.pgm 28  28  200  200  biTwoT  50  100 
+images/baboon.pgm images/baboon_TwoT.pgm 28  284 200  200  biTwoT  100 150
+images/baboon.pgm images/baboon_TwoT.pgm 284 28  200  200  biTwoT  150 200
+images/baboon.pgm images/baboon_TwoT.pgm 284 284 200  200  biTwoT  100 200
+-
+images/lena.pgm images/lena_nNoise.pgm 28  28  200 200  addnoise  n 20 
+images/lena.pgm images/lena_nNoise.pgm 28  284 200 200  addnoise  n 50
+images/lena.pgm images/lena_nNoise.pgm 284 28  200 200  addnoise  n 80
+images/lena.pgm images/lena_nNoise.pgm 284 284 200 200  addnoise  n 100
+-
+images/lena.pgm images/lena_uNoise.pgm 28  28  200 200  addnoise  u 20 
+images/lena.pgm images/lena_uNoise.pgm 28  284 200 200  addnoise  u 50
+images/lena.pgm images/lena_uNoise.pgm 284 28  200 200  addnoise  u 80
+images/lena.pgm images/lena_uNoise.pgm 284 284 200 200  addnoise  u 100
+-
+images/lena_nNoise.pgm images/lena_nSmooth3x3.pgm 28  28  200 200  uSmooth 3
+images/lena_nNoise.pgm images/lena_nSmooth3x3.pgm 28  284 200 200  uSmooth 3
+images/lena_nNoise.pgm images/lena_nSmooth3x3.pgm 284 28  200 200  uSmooth 3
+images/lena_nNoise.pgm images/lena_nSmooth3x3.pgm 284 284 200 200  uSmooth 3
+-
+images/lena_uNoise.pgm images/lena_uSmooth3x3.pgm 28  28  200 200  uSmooth 3
+images/lena_uNoise.pgm images/lena_uSmooth3x3.pgm 28  284 200 200  uSmooth 3
+images/lena_uNoise.pgm images/lena_uSmooth3x3.pgm 284 28  200 200  uSmooth 3
+images/lena_uNoise.pgm images/lena_uSmooth3x3.pgm 284 284 200 200  uSmooth 3
+-
+images/lena_nNoise.pgm images/lena_nSmooth5x5.pgm 28  28  200 200  adaptSmooth 5
+images/lena_nNoise.pgm images/lena_nSmooth5x5.pgm 28  284 200 200  adaptSmooth 5
+images/lena_nNoise.pgm images/lena_nSmooth5x5.pgm 284 28  200 200  adaptSmooth 5
+images/lena_nNoise.pgm images/lena_nSmooth5x5.pgm 284 284 200 200  adaptSmooth 5
+-
+images/lena_nNoise.pgm images/lena_nSmooth7x7.pgm 28  28  200 200  adaptSmooth 7
+images/lena_nNoise.pgm images/lena_nSmooth7x7.pgm 28  284 200 200  adaptSmooth 7
+images/lena_nNoise.pgm images/lena_nSmooth7x7.pgm 284 28  200 200  adaptSmooth 7
+images/lena_nNoise.pgm images/lena_nSmooth7x7.pgm 284 284 200 200  adaptSmooth 7
+-
+images/lena_nNoise.pgm images/lena_nSmooth11x11.pgm 28  28  200 200  adaptSmooth 11
+images/lena_nNoise.pgm images/lena_nSmooth11x11.pgm 28  284 200 200  adaptSmooth 11
+images/lena_nNoise.pgm images/lena_nSmooth11x11.pgm 284 28  200 200  adaptSmooth 11
+images/lena_nNoise.pgm images/lena_nSmooth11x11.pgm 284 284 200 200  adaptSmooth 11
+-
+images/lena_nNoise.pgm images/lena_nSmooth15x15.pgm 28  28  200 200  adaptSmooth 15
+images/lena_nNoise.pgm images/lena_nSmooth15x15.pgm 28  284 200 200  adaptSmooth 15
+images/lena_nNoise.pgm images/lena_nSmooth15x15.pgm 284 28  200 200  adaptSmooth 15
+images/lena_nNoise.pgm images/lena_nSmooth15x15.pgm 284 284 200 200  adaptSmooth 15
+-
+images/shore.ppm images/shore_Bi_ROI.ppm 21  28  150 200  colorBi 47 102 108 5 
+images/shore.ppm images/shore_Bi_ROI.ppm 21  284 150 200  colorBi 47 102 108 5 
+images/shore.ppm images/shore_Bi_ROI.ppm 213 28  150 200  colorBi 47 102 108 5 
+images/shore.ppm images/shore_Bi_ROI.ppm 213 284 150 200  colorBi 47 102 108 5 
+-

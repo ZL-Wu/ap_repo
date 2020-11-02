@@ -1,0 +1,16 @@
+images/lena.pgm, images/lena_ROI.pgm, drawROI, [28,28,200,200;28,284,200,200;284,28,200,456]
+images/lena.pgm, images/lena_hist.png, drawHist, [28,28,200,200;28,284,200,200;284,28,200,456], ROI_1: Top left|ROI_2: Top right|ROI_3: Bottom
+images/lena.pgm, images/lena_histStretch.pgm, histStretch, [28,28,200,200;28,284,200,200;284,28,200,456], [60,180;33,230;28,220]
+images/lena_histStretch.pgm, images/lena_stretchHist.png, drawHist, [28,28,200,200;28,284,200,200;284,28,200,456], ROI_1: Top left|ROI_2: Top right|ROI_3: Bottom
+images/lena.pgm, images/lena_histBiStretch.pgm, histBiStretch, [28,28,200,200;28,284,200,200;284,28,200,456], [100,150,50,205;130,170,50,205;100,150,50,205]
+images/lena_histBiStretch.pgm, images/lena_biStretchHist.png, drawHist, [28,28,200,200;28,284,200,200;284,28,200,456], ROI_1: Top left|ROI_2: Top right|ROI_3: Bottom
+images/lena.pgm, images/lena_optimalT.pgm, optimalT, [28,28,200,200;28,284,200,200;284,28,200,456]
+images/lena.pgm, images/lena_stretchCombine.pgm, stretchCombine, [28,28,200,200;28,284,200,200;284,28,200,456], images/lena_stretchCombineHist.png, 
+images/shore.ppm, images/shore_ROI.ppm, drawROI, [21,28,150,200;21,284,150,200;213,28,150,456]
+images/shore.ppm, images/shore_HSIhist.png, drawHSIhist, [21,28,150,200;21,284,150,200;213,28,150,456]
+images/shore.ppm, images/shore_stretchI.ppm, hsiStretch, [21,28,150,200;21,284,150,200;213,28,150,456], [], [], [0,100;80,100;0,220]
+images/shore_stretchI.ppm, images/shore_stretIhist.png, drawHSIhist, [21,28,150,200;21,284,150,200;213,28,150,456]
+images/shore.ppm, images/shore_stretchSI.ppm, hsiStretch, [21,28,150,200;21,284,150,200;213,28,150,456], [], [0,100;50,70;10,90], [0,100;80,100;0,220]
+images/shore_stretchSI.ppm, images/shore_stretSIhist.png, drawHSIhist, [21,28,150,200;21,284,150,200;213,28,150,456]
+images/shore.ppm, images/shore_stretchHSI.ppm, hsiStretch, [21,28,150,200;21,284,150,200;213,28,150,456], [100,200;200,205;150;200], [0,100;50,70;10,90], [0,100;80,100;0,220]
+images/shore_stretchHSI.ppm, images/shore_stretHSIhist.png, drawHSIhist, [21,28,150,200;21,284,150,200;213,28,150,456]

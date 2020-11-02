@@ -1,0 +1,22 @@
+images/lena.pgm, images/lena_ROI.pgm, drawROI, [28,28,200,200;28,284,200,200;284,28,200,456]
+images/lena.pgm, images/lena_hist.png, drawHist, [28,28,200,200;28,284,200,200;284,28,200,456], ROI_1: Top left|ROI_2: Top right|ROI_3: Bottom
+images/lena.pgm, images/lena_sobel3x3.pgm, edgeDetection, [28,28,200,200;28,284,200,200;284,28,200,456], sobel3, amplitude, [] 
+images/lena_sobel3x3.pgm, images/lena_sobel3x3Hist.png, drawHist, [28,28,200,200;28,284,200,200;284,28,200,456], ROI_1: Top left|ROI_2: Top right|ROI_3: Bottom
+images/lena_sobel3x3.pgm, images/lena_sobel3x3_OptimalT.pgm, optimalT, [28,28,200,200;28,284,200,200;284,28,200,456] 
+images/lena.pgm, images/lena_sobel3x3T150.pgm, edgeDetection, [28,28,200,200;28,284,200,200;284,28,200,456], sobel3, binary, [150,150,150] 
+images/lena.pgm, images/lena_sobel3x3Direction.pgm, edgeDetection, [28,28,200,200;28,284,200,200;284,28,200,456], sobel3, direction, [125,145,150;35,55,150;-10,10,150] 
+images/lena.pgm, images/lena_sobel5x5.pgm, edgeDetection, [28,28,200,200;28,284,200,200;284,28,200,456], sobel5, amplitude, [] 
+images/lena_sobel5x5.pgm, images/lena_sobel5x5Hist.png, drawHist, [28,28,200,200;28,284,200,200;284,28,200,456], ROI_1: Top left|ROI_2: Top right|ROI_3: Bottom
+images/lena.pgm, images/lena_sobel5x5Direction.pgm, edgeDetection, [28,28,200,200;28,284,200,200;284,28,200,456], sobel5, direction, [125,145,150;35,55,150;-10,10,150]
+images/lena.pgm, images/lena_CVsobel3x3.pgm, opencv, [28,28,200,200;28,284,200,200;284,28,200,456], sobelEdge, []  
+images/lena.pgm, images/lena_CVsobel3x3T05.pgm, opencv, [28,28,200,200;28,284,200,200;284,28,200,456], sobelEdge, [0.05;0.05;0.05]
+images/lena.pgm, images/lena_CVsobel3x3T05Vertical.pgm, opencv, [28,28,200,200;28,284,200,200;284,28,200,456], sobelEdge, [0,0.05;0,0.05;0,0.05]  
+images/lena.pgm, images/lena_CVsobel3x3T05Horizental.pgm, opencv, [28,28,200,200;28,284,200,200;284,28,200,456], sobelEdge, [1,0.05;1,0.05;1,0.05] 
+images/lena.pgm, images/lena_CVcanny.pgm, opencv, [28,28,200,200;28,284,200,200;284,28,200,456], cannyEdge, [] 
+images/lena.pgm, images/lena_histStretch.pgm, histStretch, [28,28,200,200;28,284,200,200;284,28,200,456], [60,180;33,230;28,220]
+images/lena_histStretch.pgm, images/lena_stretchHist.png, drawHist, [28,28,200,200;28,284,200,200;284,28,200,456], ROI_1: Top left|ROI_2: Top right|ROI_3: Bottom
+images/lena.pgm, images/lena_CVhistEqual.pgm, opencv, [28,28,200,200;28,284,200,200;284,28,200,456], histogramEqual, []
+images/lena_CVhistEqual.pgm, images/lena_equalHist.png, drawHist, [28,28,200,200;28,284,200,200;284,28,200,456], ROI_1: Top left|ROI_2: Top right|ROI_3: Bottom
+images/lena.pgm, images/lena_CV_OtsuT.pgm, opencv, [28,28,200,200;28,284,200,200;284,28,200,456], OtsuT, []
+images/lena.pgm, images/lena_OptimalT.pgm, optimalT, [28,28,200,200;28,284,200,200;284,28,200,456] 
+images/lena.pgm, images/lena_equalCombineOtsu.pgm, equalCombineOtsu, [28,28,200,200;28,284,200,200;284,28,200,456], images/lena_equalCombineOtsuHist.png  
