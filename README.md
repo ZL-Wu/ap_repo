@@ -1,4 +1,4 @@
-This is a Repository of my analysis projects.
+This is a Repository of some my projects.
 
 ## 1. Churn Prediction and Reason Analysis of carrier ATT, Verizon and T-Mobile
 * Detected and mined the real-time data on Twitter based on some keywords of three carrier ATT, Verizon and T-Mobile.
@@ -8,3 +8,8 @@ This is a Repository of my analysis projects.
 * Focus on the churn reason text dataset, use topic modeling and other clustering technology to screen out some key insights.
 * Utilized: text analysis model, python lib: nltk, genism, sklearn, numpy, pandas, matplotlib
 
+## 2. Computer Vision -- Classifier of Clean Bedroom and Messy Bedroom
+* Collect and label 150 clean bedroom pictures and 150 messy bedroom pictures from Google images, and organize them into a database.
+* From the perspective of feature engineering, scan the obvious difference of two types of pictures, such as clean rooms have lots of parallel and neat lines, and messy rooms have lots of irregular curves. Use edge detection, line gradient direction and other image processing techniques to convert all pictures into another representation and 9 models are trained with it. And the hard-voting classifier composed of naïve bayes, logistic regression and svc has the highest accuracy 83%
+* Directly use deep learning models such as CNN and transfer learning to learn the features of all pictures, and finally get 92% accuracy in the classification task.
+* Utilized: image processing technology, python lib: numpy, sklearn, matplotlib, MatLab
